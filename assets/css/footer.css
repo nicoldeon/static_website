@@ -1,0 +1,84 @@
+
+/*FOOTER*/
+.footer-wrap {
+    padding: 20px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.footer-col {
+    flex-basis: 20%;
+    padding: 0 10px;
+}
+.footer-col-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-item{
+    margin: 10px 0;
+}
+.footer-item__link{
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--text-color);
+
+}
+.payment-item img{
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+}
+.delivery-service-pic img{
+    width: 100px;
+    height: 80px;
+}
+.certification-imgs{
+    display: flex;
+    align-items: center;
+}
+.certification-icon-1 img{
+    width:40px;
+    height: 40px;
+}
+.certification-icon-2 img{
+    width:75px;
+    height: 56px;
+}
+
+.payment-icon {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+.social-media-icons {
+    flex-wrap: wrap;
+    display: flex;
+}
+.social-media-item {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.social-media-link{
+    color: var(--main-color);
+    font-size: 20px;
+}
+.qr-picture img{
+    width: 80px;
+}
+.application-mobile {
+    display: flex;
+}
+.apps-phone img{
+    width: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.app-store img{
+    width: 100px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
