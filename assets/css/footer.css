@@ -2,14 +2,8 @@
 /*FOOTER*/
 .footer-wrap {
     padding: 20px 15px;
-    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-}
-.footer-col {
-    flex: 0 0 auto;
-    width: 20%;
-    padding: 0 10px;
 }
 .footer-col-heading {
     font-size: 20px;
@@ -38,7 +32,6 @@
     height: 80px;
 }
 .certification-imgs{
-    display: flex;
     align-items: center;
 }
 .certification-icon-1 img{
@@ -51,13 +44,11 @@
 }
 
 .payment-icon {
-    display: flex;
     flex-wrap: wrap;
     margin-bottom: 12px;
 }
 .social-media-icons {
     flex-wrap: wrap;
-    display: flex;
 }
 .social-media-item {
     margin-right: 10px;
@@ -70,9 +61,7 @@
 .qr-picture img{
     width: 80px;
 }
-.application-mobile {
-    display: flex;
-}
+
 .apps-phone img{
     width: 100px;
     cursor: pointer;
