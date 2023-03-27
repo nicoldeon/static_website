@@ -38,13 +38,13 @@
         display: none;
     }
     .product-box{
-        flex-basis: 50%;
-    } 
+        margin-bottom: 20px;
+    }
     .product-section-top {
         display: none;
      }
      .footer-col{
-        flex-basis: 100%;
+        width: 100%;
     }
     .product-pagination {
         justify-content: center;
@@ -66,7 +66,7 @@
         font-size: 11px;
     }
     .footer-col{
-        flex-basis: 50%;
+        width: 50%;
     }
     .header-info__list {
         display: none;
@@ -108,9 +108,9 @@
 }
 
 /*small phones*/
-@media (max-width:414px){
+@media (max-width:570px){
     .product-box{
-        flex-basis: 100%;
+        width: 100%;
     }
     .product-section-top-mobile{
         display: block;
