@@ -53,10 +53,13 @@
     .dropdown-menu {
         right: 0;
     }
+    .footer-col{
+        width: 100%;
+    }
 }
 
 /*IPAD PRO*/
-@media (min-width:1024px) and (max-width:1150px){
+@media (min-width:1024px) and (max-width:1200px){
     .product-box {
         width: 33.33%;
         flex: 0 0 auto;
