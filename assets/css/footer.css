@@ -7,7 +7,8 @@
     flex-direction: row;
 }
 .footer-col {
-    flex-basis: 20%;
+    flex: 0 0 auto;
+    width: 20%;
     padding: 0 10px;
 }
 .footer-col-heading {
