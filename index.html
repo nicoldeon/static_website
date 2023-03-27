@@ -37,11 +37,11 @@
                 </div>
 
 
-                <div class="d-flex justify-content-between hide-on-mobile-small-tablet header-search">
+                <div class="d-flex justify-content-between hide-on-mobile-small-tablet position-relative header-search">
                     <i class="fa-solid fa-magnifying-glass display-on-mobile-small-tablet header-search__icon"></i>
                     <input type="text" class="header-search__input" placeholder="Bạn cần tìm kiếm gì?">
-                    <div class="header-btn--search">
-                        <p class="d-flex justify-content-between header-btn-title">Tìm kiếm</p>
+                    <div class="header-btn--search position-absolute">
+                        <p class="d-flex justify-content-between position-absolute header-btn-title">Tìm kiếm</p>
                     </div>
                 </div>
                 <div class="d-flex header-info">
@@ -54,7 +54,7 @@
                             </li>
                             <li class="header-info__item">
                                 <!-- <i class="fa-solid fa-user header-info__icon"></i> -->
-                                <div class="d-flex header-user-info">
+                                <div class="d-flex position-relative header-user-info">
                                     <div class="header-user-img">
                                         <img src="assets/img/avatar.jpg" alt="">
                                     </div>
@@ -68,8 +68,6 @@
 
                                     </ul>
                                 </div>
-
-
                             </li>
                             <li class="header-info__item">
                                 <i class="fa-solid fa-crown header-info__icon"></i>
@@ -77,15 +75,13 @@
                             </li>
                         </ul>
                     </div>
-
-                    <div class="cart-wrap">
+                    <div class="cart-wrap position-relative">
                         <i class="fa-solid fa-cart-shopping header-cart__icon"></i>
-                        <span class="d-flex justify-content-center align-items-center header-cart__number">3</span>
+                        <span
+                            class="d-flex justify-content-center align-items-center position-absolute header-cart__number">3</span>
                     </div>
                 </div>
-
             </div>
-
             <div class="hide-on-mobile-small-tablet hide-on-tablet header-hint">
                 <div class="d-flex justify-content-between header-hint-wrap">
                     <div class="header-hint-list">
@@ -108,8 +104,6 @@
         </div>
     </header>
 
-
-
     <div class="hide-on-mobile-small-tablet header-notification">
         <div class="container">
             <p class="header-noti-text">
@@ -121,6 +115,7 @@
             </p>
         </div>
     </div>
+
     <div class="content">
 
         <div class="container">
@@ -334,7 +329,7 @@
                                 </div>
 
                             </div>
-                            <div class="col-sm-6 col-md-4 col-lg-3 product-box ">
+                            <div class="col-sm-6 col-md-4 col-lg-3 product-box">
                                 <div class="box-product-wrap">
                                     <div class="product-box-img">
                                         <img class="product-img" src=" ./assets/img/vang_va_mau.webp" alt="">
@@ -970,7 +965,7 @@
 
 
                         <nav aria-label="Page navigation">
-                            <ul class="pagination product-pagination">
+                            <ul class="d-flex pagination product-pagination">
                                 <li class="page-item">
                                     <a class="page-link page-link--disabled" href="#" aria-label="Previous">
                                         <span aria-hidden="true">&laquo;</span>
@@ -1096,6 +1091,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
