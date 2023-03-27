@@ -1,11 +1,8 @@
 /*HEADER LOGO SEARCH CART*/
 .header-wrap {
-    display: flex;
     justify-content: space-between;
     height: 50px;
     width: 100%;
-
-    align-items: center;
     align-items: center;
     padding: 10px 15px;
 }
@@ -14,7 +11,6 @@
 }
 
 .header-info-res-wrap {
-    display: flex;
     align-items: center;
 }
 .header-logo img {
@@ -30,7 +26,6 @@
     padding: 10px;
     height: 37px;
     width: 473px;
-    display: flex;
     justify-content: space-between;
     overflow: hidden;
 
@@ -171,7 +166,6 @@ ul.dropdown-menu.header-user-dropdown-menu::before {
     line-height: 45px;
 }
 .header-hint-wrap {
-    display: flex;
     justify-content: space-between;
     padding: 0 10px;
     align-items: center;

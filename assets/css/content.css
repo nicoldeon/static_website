@@ -5,9 +5,6 @@
     overflow: hidden;
     background-color: rgb(245, 245, 250);
 }
-.content-wrap{
-    display: flex;
-}
 .content-category{
     margin-left: 15px;
     padding: 20px 0px;
@@ -16,12 +13,10 @@
 }
 .content-category__item{
     list-style-type: none;
-    display: block;
     padding: 10px 20px;
     border-radius: 5px;
     align-items: center;
     transition: 0.3s linear;
-    display: flex;
 }
 .content-category__item:hover{
     background-color: #e6e6e6;   
@@ -74,7 +69,6 @@
 .product-section-top{
     padding: 20px;
     margin-bottom: 20px;
-    display: flex;
     height: 60px;
     background-color: white;
     align-items: center;
@@ -110,6 +104,16 @@ button.btn.btn-secondary.dropdown-toggle.btn-product--filter-price{
     width: 200px;
 }
 
+a.nav-link:hover {
+    background-color: #ebebf0;
+}
+a.nav-link:active{
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+
+
 .dropdown:hover .dropdown-menu {
     display: block;
 }
@@ -119,7 +123,6 @@ button.btn.btn-secondary.dropdown-toggle.btn-product--filter-price{
 
 /*product box*/
 .product-box-wrap{
-    display: flex;
     flex-wrap: wrap;
 }
 .product-box{
@@ -161,7 +164,6 @@ button.btn.btn-secondary.dropdown-toggle.btn-product--filter-price{
     -webkit-box-orient: vertical;
 }
 .product-rating {
-    display: flex;
     margin-bottom: 10px;
     align-items: baseline;
     color: var(--text-color);
@@ -188,7 +190,6 @@ button.btn.btn-secondary.dropdown-toggle.btn-product--filter-price{
 }
 
 .product-price{
-    display: flex;
     align-items: baseline;
 }
 .product-price--after-discount{
