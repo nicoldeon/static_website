@@ -102,6 +102,9 @@
     .product-section-top-mobile{
         display: block;
     }
+    .dropdown-menu {
+        right: 0;
+    }
 }
 
 /*small phones*/
@@ -111,6 +114,9 @@
     }
     .product-section-top-mobile{
         display: block;
+    }
+    .dropdown-menu {
+        right: 0;
     }
 }
 
